@@ -32,6 +32,6 @@ Não há npm, build, variáveis de ambiente, IA ou banco de dados nesta etapa.
 
 Consulte `docs/ARQUITETURA.md`.
 
-## Teste de deploy automático
+## Novidade — Orbit 2.1: Central Unificada
 
-Integração GitHub + Netlify — 10/11/2026.
+A Central agora agrega tarefas, soluções e informações comerciais no mesmo espaço de trabalho, com criação contextual de tarefas, contatos (CRM ativo) e simulação de lançamento temporário. Consulte `docs/CENTRAL-UNIFICADA.md` para alterações, testes e limites.

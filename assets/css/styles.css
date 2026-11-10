@@ -19,3 +19,39 @@
 .cal-event-done{opacity:.5;text-decoration:line-through}
 .cal-overflow{font-size:10px;opacity:.7}
 @media(max-width:620px){.cal-day,.cal-empty{min-height:66px;padding:3px}.cal-event{font-size:9px;padding:2px}.cal-weekdays{font-size:10px}.cal-card{padding:10px!important}}
+
+/* Orbit 2.1 — Central unificada. Componentes visuais de demonstração. */
+.central-intro{background:linear-gradient(115deg,#1b2542,#413878);border-radius:19px;color:#fff;padding:28px 30px;margin-bottom:18px;display:flex;justify-content:space-between;gap:24px;align-items:center}
+.central-intro h2{font:800 clamp(22px,3vw,30px) Manrope,sans-serif;margin:8px 0}
+.central-intro p{color:#d5d8ed;max-width:680px;font-size:13px;margin-bottom:16px}
+.central-kicker{font-size:10px;letter-spacing:.1em;font-weight:800;color:#d5cfff}
+.central-intro-symbol{font-size:80px;color:#a49bea;line-height:1}
+.central-actions{display:flex;gap:9px;flex-wrap:wrap}
+.central-intro .central-actions .btn{background:#fff;color:#332a66;border-color:#fff}
+.central-intro .central-actions .btn.secondary{background:#ffffff15;color:#fff;border-color:#ffffff55}
+.central-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin-bottom:18px}
+.central-metrics .card{padding:17px 19px;display:flex;flex-direction:column;gap:3px}
+.central-metrics strong{font:800 27px Manrope,sans-serif;letter-spacing:-.04em}
+.central-metrics small{font-size:11px;color:var(--muted)}
+.central-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:17px;margin-bottom:17px;align-items:start}
+.central-right{display:flex;flex-direction:column;gap:17px;min-width:0}
+.central-spacing{margin:-5px 0 16px}
+.central-tasklist{display:flex;flex-direction:column;gap:8px}
+.central-task{display:flex;align-items:flex-start;gap:10px;padding:11px 12px;background:#f8f9fd;border:1px solid var(--line);border-radius:11px;cursor:pointer}
+.central-task input{margin-top:3px;accent-color:#5145b9}
+.central-task span{display:flex;flex-direction:column;gap:2px;min-width:0}
+.central-task b{font-size:12px;overflow-wrap:anywhere}
+.central-task small{font-size:11px;color:var(--muted)}
+.central-line{display:flex;align-items:center;gap:11px;padding:12px 0;border-bottom:1px solid var(--line)}
+.central-line:last-child{border-bottom:0}
+.central-line b{font-size:12px}.central-line p{margin:3px 0 0}
+.central-date{background:#f0effc;border-radius:8px;min-width:45px;text-align:center;padding:8px;font-size:11px;font-weight:800;color:#4636ac}
+.central-module{display:flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:11px;padding:10px;margin-bottom:8px}
+.central-module>div{flex:1;min-width:0}.central-module b{font-size:12px;display:block}.central-module small{display:block;color:var(--muted);font-size:11px}
+.central-moduleicon{padding:7px;border-radius:8px;background:#eeeafb}
+.central-opportunity{border-bottom:1px solid var(--line);padding:12px 0;display:flex;align-items:flex-start;gap:12px;justify-content:space-between;flex-wrap:wrap}
+.central-opportunity b{font-size:12px}.central-opportunity p{margin:5px 0 0}.central-origin{font-size:10px;color:#5145b9}
+.central-project{background:#f8f9fd;padding:13px;border-radius:11px;margin-bottom:10px;border:1px solid var(--line)}
+.central-project b,.central-project span{display:block}.central-project p{margin:6px 0 0}
+@media(max-width:1050px){.central-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.central-grid{grid-template-columns:1fr}}
+@media(max-width:620px){.central-intro{padding:22px}.central-intro-symbol{display:none}.central-metrics{gap:8px}.central-metrics .card{padding:13px}.central-metrics strong{font-size:23px}.central-actions .btn{flex:1;white-space:normal}}
