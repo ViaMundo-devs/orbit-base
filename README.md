@@ -31,3 +31,7 @@ Não há npm, build, variáveis de ambiente, IA ou banco de dados nesta etapa.
 - Sugestão: faça backup de dados locais de teste antes de publicar; `Restaurar demonstração` apaga alterações da demo.
 
 Consulte `docs/ARQUITETURA.md`.
+
+## Teste de deploy automático
+
+Integração GitHub + Netlify — 10/11/2026.
